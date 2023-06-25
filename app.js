@@ -1,49 +1,102 @@
-// let num = 2.45214;
-// console.log (Math.round(num));
-// let num1 = 2.45214;
-// console.log (Math.floor(num1));
-
-// let num3 = 2.45214;
-// console.log (Math.ceil(num3));
-
-// Question num 2
-
-// let nagNum = -2.673;
-// console.log (Math.round(nagNum));
-//  let nagNum1 = -2.673;
-//  console.log (Math.floor(nagNum1));
-
-// let nagNum3 =  -2.673;
-// console.log (Math.ceil(nagNum3));
-
-// Question num 3
-// let x = -4;
-// console.log(Math.abs(x));
+// var firstName = prompt("enter your firstname");
+// var lastName = prompt("Enter Your last name");
+// document.write(firstName + " " + lastName);
 
 
-// let bigNum = Math.random();
-// let improvedNum = (bigNum * 6)+1;
-// let NumOfStar = Math.floor(improvedNum );
-// console.log(NumOfStar);
-
-
-// //QUESTION Number
-
-
-// let randomNumber = Math.floor(Math.random() * 2)
-
-
-// if (randomNumber <= 0)
-//   console.log(randomNumber + "Heads")
-// else 
-//   console.log(randomNumber + "Tails")
-
-
-//Question#
-
-//   let randomNumber1 = Math.floor(Math.random() * 100);
-// console.log(randomNumber1 );
+// var favMubile = prompt("Enter your favourite mobile phone Model?");
 
 
 
-let userInput = prompt("Enter a number 1 and 10")
+// var country= "pakistani";
+// var indexx = 0;
+// for(i=0; i<country.length; i++){
+//     if (country[i] == "n"){
+//         indexx = i;
+//         break;
+//     }
+// }
+// document.write("index of n is :" + indexx);
+
+
+
+// let world = "hello world";
+// let indexxNum = 0;
+// for (i=0; i<world.length; i++){
+//     if (world[i] == "l"){
+        
+//         indexxNum = i;
+//         break;
+//     }
+// }
+// document.write("index of l is :" + indexxNum);
+
+
+
+// var countryName= "pakistani";
+// var countryIndex = countryName[3];
+// document.write(countryIndex);
+
+
+// var firstName =prompt("enter your firstname");
+// var lastName = prompt("enter your lastname");
+// var fullName = firstName.concat(lastName);
+// alert(fullName);
+
+
+
+
+// let city = "hydrabad";
+// var replacement = city.replace("hydrabad" ,"Islamabad")
+// console.log(replacement);
+
+
+
+
+
+// var message = "Ali and sami are best friends and they play foot ball and cricket together";
+// for (i = 0; i<message.length ; i++){
+// if (message.slice(i,i+3 )==="and"){
+//     message=message.slice(0,i)+"&"+ message.slice(i+3)
+// }
+// }
+// console.log(message);
+
+
+
+
+
+
+//"QUESTION Number;"
+
+// let value = "472";
+// console.log(typeof(value));
+// let value2 = 472;
+// console.log(typeof(value2));
+
+//Question # 
+
+// let nut = "peanuts"
+// console.log(nut.toUpperCase());
+
+
+
+
+//QUESTION # 
+
+
+let java = "javascript";
+
+console.log(java.toLowerCase());
+
+
+let num = 35.36;
+let convert = num.toString();
+let change = convert.replace("." , " ");
+console.log(change);
+
+
+
+
+
+
+
