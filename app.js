@@ -1,104 +1,49 @@
+// let num = 2.45214;
+// console.log (Math.round(num));
+// let num1 = 2.45214;
+// console.log (Math.floor(num1));
 
-//Question # 1 write and display the current time and date in your browser
+// let num3 = 2.45214;
+// console.log (Math.ceil(num3));
 
-// var rightNow =  Date ();
-// console.log(rightNow);
+// Question num 2
 
+// let nagNum = -2.673;
+// console.log (Math.round(nagNum));
+//  let nagNum1 = -2.673;
+//  console.log (Math.floor(nagNum1));
 
+// let nagNum3 =  -2.673;
+// console.log (Math.ceil(nagNum3));
 
-
-//Q : 2 write a program that alert the current month in words;
-
-
-// const monthNames = ["January", "February", "March", "April", "May", "June",
-//   "July", "August", "September", "October", "November", "December"
-// ];
-
-// const d = new Date();
-// document.write("Current month : " + monthNames[11]);
-
-
-//Q : 3 write a program that alert the first 3 letters of the current day if it is sunday alet will show sun
-
-// const days = ["sun", "Mon", "Tues",WWed, "Thurs", "Fri", "Sat",
-  
-// ];
-
-// const d = new Date();
-// document.write("Today is " + days[5]);
+// Question num 3
+// let x = -4;
+// console.log(Math.abs(x));
 
 
-//Q :4 write a program and display "its fun day"if it is sunday Or saturday
-
-// var currentDate = new Date();
-
-// // if (currentDate.getDay() === 0 || currentDate.getDay() === 6) {
-// //   console.log("It's fun day");
-// // } else {
-// //   console.log("It's not a fun day");
-// // }
+// let bigNum = Math.random();
+// let improvedNum = (bigNum * 6)+1;
+// let NumOfStar = Math.floor(improvedNum );
+// console.log(NumOfStar);
 
 
-//Q # :5 A program that show the message "First fifteen days of the month " if it is less than 16 of the month else show "last days of the month"
+// //QUESTION Number
 
 
-// // Get the current date
-// var currentDate = new Date();
+// let randomNumber = Math.floor(Math.random() * 2)
 
-// // Get the day of the month
-// var currentDay = currentDate.getDate();
 
-// // Check if it's the first fifteen days or the last days of the month
-// if (currentDay < 16) {
-//   console.log("First fifteen days of the month");
-// } else {
-//   console.log("Last days of the month");
-// }
+// if (randomNumber <= 0)
+//   console.log(randomNumber + "Heads")
+// else 
+//   console.log(randomNumber + "Tails")
 
-//Q:6 
+
+//Question#
+
+//   let randomNumber1 = Math.floor(Math.random() * 100);
+// console.log(randomNumber1 );
 
 
 
-//Q :7 write a program tha tests whether it is before noon and aert "its AM" else "itsPM"
-// // Get the current date
-// var currentDate = new Date();
-
-// // Get the current hour
-// var currentHour = currentDate.getHours();
-
-// // Check if it's before noon or after
-// if (currentHour < 12) {
-//   alert("It's AM");
-// } else {
-//   alert("It's PM");
-// }
-
-
-
-
-
-
-
-// // Create a date object for the last day of the last month of 2020
-var date = new Date();
-
-var date1= date.setFullYear(2020 , 11, 31);
-console.log(date);
-
-
-
-
-
-
-
-//question # 13 
-
-
-
-    //   var age = prompt("Enter your age:");
-    //   var currentYear = new Date().getFullYear();
-    //   var birthYear = currentYear - age;
-      
-    //   output = "Your birth year is: " + birthYear;
-    //   console.log(output)
-    
+let userInput = prompt("Enter a number 1 and 10")
